@@ -68,7 +68,7 @@ Using what we've done above, you could clone the library, and add it into ipfs, 
 paths will now look something like:
 ```go
 import (
-	mylib "gateway.ipfs.io/ipfs/QmX679gmfyaRkKMvPA4WGNWXj9PtpvKWGPgtXaF18etC95"
+	mylib "gateway.alexsicart.com/ipfs/QmX679gmfyaRkKMvPA4WGNWXj9PtpvKWGPgtXaF18etC95"
 )
 ```
 

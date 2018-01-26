@@ -6,10 +6,10 @@
       <ol class="latest-list list-unstyled" id="latest-list">
         <!--This code adds the latest available blog posts at build time, which will be replaced client-side
         if newer versions are available.  However, it is commented out as Hugo's build process fails if
-        the remote resource is not found, so it needs https://ipfs.io/blog/index.json to be accessible
+        the remote resource is not found, so it needs https://alexsicart.com/blog/index.json to be accessible
         before it can be used.-->
         {{/*
-          {{ $dataJ := getJSON "https://ipfs.io/blog/index.json" }}
+          {{ $dataJ := getJSON "https://alexsicart.com/blog/index.json" }}
           {{ range $dataJ.posts }}
             <li><span class="date">{{ .date }}</span> <a href="{{ .url }}">{{ .title }}</a></li>
           {{ end }}

@@ -41,7 +41,7 @@ if [ -z "$record_id" ]; then
     -H "Content-Type: application/json" \
     -d "{\"record\":{ \"name\":\"$RECORD_NAME\", \"record_type\":\"TXT\", \"content\":\"dnslink=/ipfs/$HASH\", \"ttl\":\"$RECORD_TTL\" }}" \
     | jq -r '.record' \
-  && printf "\\nIt looks like we're good: https://ipfs.io/ipns/$ZONE\\n"
+  && printf "\\nIt looks like we're good: https://alexsicart.com/ipns/$ZONE\\n"
 else
   curl -v -s -X PUT "https://api.dnsimple.com/v1/domains/$ZONE/records/$record_id" \
     -H "X-DNSimple-Domain-Token: $DNSIMPLE_TOKEN" \
@@ -49,5 +49,5 @@ else
     -H "Content-Type: application/json" \
     -d "{\"record\":{ \"content\":\"dnslink=/ipfs/$HASH\", \"name\":\"$RECORD_NAME\", \"ttl\":\"$RECORD_TTL\" }}" \
     | jq -r '.record' \
-  && printf "\\nIt looks like we're good: https://ipfs.io/ipns/$ZONE\\n"
+  && printf "\\nIt looks like we're good: https://alexsicart.com/ipns/$ZONE\\n"
 fi

@@ -1,0 +1,55 @@
+==================================================================
+https://keybase.io/alexsicart
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://alexsicart.com
+  * I am alexsicart (https://keybase.io/alexsicart) on keybase.
+  * I have a public key ASD3Q9n1ezcu7k7USbeIj0lAP3tKd1rCQpdNjcgDe65nuAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0101a979f6512cbc33eb25153b73706b10dd4ccad256f56a1e09db7ee0e47dc2cbed0a",
+      "host": "keybase.io",
+      "kid": "0120f743d9f57b372eee4ed449b7888f49403f7b4a775ac242974d8dc8037bae67b80a",
+      "uid": "8cc7254f0f0d79c3bcb2a9a26e5f9419",
+      "username": "alexsicart"
+    },
+    "merkle_root": {
+      "ctime": 1507541504,
+      "hash": "6784af26a234ac2a6fd613a6c460e3b76178b7e2d8d6759fa055f5a67f40edee9e04775b30ef4348bc3bb7c25a6f6efd99121f6ae39c289df37ee089e1b6f87b",
+      "hash_meta": "8152e521aac0bb9f4730c6e6a806777338e5264dec3337dabe9afb6fdfdf1c5e",
+      "seqno": 1544168
+    },
+    "service": {
+      "hostname": "alexsicart.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.33"
+  },
+  "ctime": 1507541527,
+  "expire_in": 504576000,
+  "prev": "3f921429eb670acdc0bf2780880c4ed10481a52c4080e6834bdae8bce47dc130",
+  "seqno": 23,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg90PZ9Xs3Lu5O1Em3iI9JQD97SndawkKXTY3IA3uuZ7gKp3BheWxvYWTFA0l7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTk3OWY2NTEyY2JjMzNlYjI1MTUzYjczNzA2YjEwZGQ0Y2NhZDI1NmY1NmExZTA5ZGI3ZWUwZTQ3ZGMyY2JlZDBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjc0M2Q5ZjU3YjM3MmVlZTRlZDQ0OWI3ODg4ZjQ5NDAzZjdiNGE3NzVhYzI0Mjk3NGQ4ZGM4MDM3YmFlNjdiODBhIiwidWlkIjoiOGNjNzI1NGYwZjBkNzljM2JjYjJhOWEyNmU1Zjk0MTkiLCJ1c2VybmFtZSI6ImFsZXhzaWNhcnQifSwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE1MDc1NDE1MDQsImhhc2giOiI2Nzg0YWYyNmEyMzRhYzJhNmZkNjEzYTZjNDYwZTNiNzYxNzhiN2UyZDhkNjc1OWZhMDU1ZjVhNjdmNDBlZGVlOWUwNDc3NWIzMGVmNDM0OGJjM2JiN2MyNWE2ZjZlZmQ5OTEyMWY2YWUzOWMyODlkZjM3ZWUwODllMWI2Zjg3YiIsImhhc2hfbWV0YSI6IjgxNTJlNTIxYWFjMGJiOWY0NzMwYzZlNmE4MDY3NzczMzhlNTI2NGRlYzMzMzdkYWJlOWFmYjZmZGZkZjFjNWUiLCJzZXFubyI6MTU0NDE2OH0sInNlcnZpY2UiOnsiaG9zdG5hbWUiOiJhbGV4c2ljYXJ0LmNvbSIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjMzIn0sImN0aW1lIjoxNTA3NTQxNTI3LCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6IjNmOTIxNDI5ZWI2NzBhY2RjMGJmMjc4MDg4MGM0ZWQxMDQ4MWE1MmM0MDgwZTY4MzRiZGFlOGJjZTQ3ZGMxMzAiLCJzZXFubyI6MjMsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAPT/K9nE2VMkhttE5CWeMTQhwU7zRSSwmDTfFSb3+E9nYB6MTAV6J8Fupwa22ZxBgmoNslJKP2yRI3TydbcwJBKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIDVIC7uUGgdNO8Cl1tFkWPCcsutm1+c6eiysdN/km8Hwo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/alexsicart
+
+==================================================================

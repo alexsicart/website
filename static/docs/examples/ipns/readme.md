@@ -31,7 +31,7 @@ cached the entry locally; give it a shot on another computer running ipfs.
 Another thing to try is viewing it on a gateway:
 
 ```
-https://ipfs.io/ipns/<your peer ID>
+https://alexsicart.com/ipns/<your peer ID>
 ```
 
 So, now comes the fun part: Lets change things.

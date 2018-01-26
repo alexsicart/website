@@ -635,7 +635,7 @@ module.exports = function () {
 
   var pixi = require('pixi.js')
 
-  var ANIMATION_ENABLED_KEY = 'ipfs.io:animation-enabled'
+  var ANIMATION_ENABLED_KEY = 'alexsicart.com:animation-enabled'
   var ENABLE_ANIMATION_LABEL = 'Enable animation'
   var DISABLE_ANIMATION_LABEL = 'Disable animation'
 

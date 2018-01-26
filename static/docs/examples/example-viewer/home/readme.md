@@ -18,7 +18,7 @@ It is trivial to write out your own ipfs examples to use with this tool.
 ### Step 1. Install IPFS
 
 In order to publish examples to the ipfs gateways, you need ipfs. Find out
-how to install it here: [http://ipfs.io](http://ipfs.io). To check if you
+how to install it here: [http://alexsicart.com](http://alexsicart.com). To check if you
 have it installed, enter:
 
 ```go
@@ -83,7 +83,7 @@ http://localhost:8080/ipfs/QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA/exampl
 You can also view it on the public ipfs gateway, if you're connected:
 
 ```
-http://ipfs.io/ipfs/QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA/example#/ipfs/QmT9qk3CRYbFDWpDFYeAv8T8H1gnongwKhh5J68NLkLir6
+http://alexsicart.com/ipfs/QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA/example#/ipfs/QmT9qk3CRYbFDWpDFYeAv8T8H1gnongwKhh5J68NLkLir6
 ```
 
 #### Bonus: publish with a makefile
@@ -95,7 +95,7 @@ I like publishing my examples with a simple `Makefile`:
 
 viewer = "QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA"
 local = "http://localhost:8080/ipfs/"
-gway = "http://ipfs.io/ipfs/"
+gway = "http://alexsicart.com/ipfs/"
 
 publish: $(shell find . )
   @hash=$(shell ipfs add -r -q . | tail -n1); \
@@ -110,7 +110,7 @@ Now you can just:
 ```sh
 > make publish
 http://localhost:8080/ipfs/QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA/example#/ipfs/QmT9qk3CRYbFDWpDFYeAv8T8H1gnongwKhh5J68NLkLir6
-http://ipfs.io/ipfs/QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA/example#/ipfs/QmT9qk3CRYbFDWpDFYeAv8T8H1gnongwKhh5J68NLkLir6
+http://alexsicart.com/ipfs/QmPDgUhqWE4WqRqAHHtjUTkTjWRiSKGtAHtf8YWcqUiUvA/example#/ipfs/QmT9qk3CRYbFDWpDFYeAv8T8H1gnongwKhh5J68NLkLir6
 ```
 
 :)

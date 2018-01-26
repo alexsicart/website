@@ -1,0 +1,105 @@
+
+html {
+  box-sizing: border-box;
+  background-image: url("background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(71, 39, 224);
+  filter: drop-shadow(0 0 1px #AAAAAA);
+  background-position: 100% top;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+html, body {
+  height: 100%;
+  color: white;
+}
+
+* {
+  font-family: 'Source Sans Pro';
+}
+
+
+body > .pure-g {
+  height: 100%;
+}
+
+
+#twitter {
+  text-align: center;
+}
+
+a {
+  color:white;
+}
+* {
+  font-family: 'Source Code Pro';
+}
+
+#profile {
+  text-align: center;
+  font-weight:bold;
+}
+#profile:hover {
+  filter: drop-shadow(0 0 10px white);
+}
+#bio {
+  text-align: center;
+}
+
+#img-circle {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-color: #8658c9;
+}
+
+#img-circle:hover {
+  filter: drop-shadow(0 0 10px white);
+}
+
+#social {
+  position: relative;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+#social a {
+  transition: all 0.25s;
+  margin: 0 1rem;
+}
+
+#social i:before {
+  color: white;
+  font-size: 2rem;
+}
+
+#social a:hover {
+  filter: drop-shadow(0 0 5px #AAAAAA);
+}
+
+@media screen and (max-width: 767px) {
+  html, body {
+    height: auto;
+    min-height: 100%;
+  }
+}
+
+
+.container {
+  font-size: 22px;
+  font-weight: 320px;
+  margin-left: 6px;
+  margin-right: 10%;
+  font-family: 'Source Sans Pro';
+}
